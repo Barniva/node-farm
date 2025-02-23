@@ -9,31 +9,38 @@ This project is a simple Node.js application built for learning purposes, demons
 *   **npm (Node Package Manager):** Used for managing project dependencies.
 *   **Slugify:** A third-party package for generating URL-friendly slugs from strings.
 *   **Nodemon:** A development dependency that automatically restarts the server when code changes are detected.
+```
 
 ## 🗂️ File Structure
 
 ```
 node-farm/
-├── dev-data/
-│   └── data.json           # JSON data containing product information.
-├── modules/
-│   └── replaceTemplate.js # Module for replacing placeholders in HTML templates.
-├── templates/
-│   ├── template-card.html   # HTML template for individual product cards.
-│   ├── template-overview.html # HTML template for the overview page.
-│   └── template-product.html # HTML template for detailed product view.
-├── txt/
-│   ├── append.txt          # Text file used in file system demonstration (commented out).
-│   ├── final.txt           # Output file from file system demonstration (commented out).
-│   ├── input.txt           # Input text file for file system demonstration (commented out).
-│   ├── output.txt          # Output text file from file system demonstration (commented out).
-│   ├── read-this.txt       # Text file used in file system demonstration (commented out).
-│   └── start.txt           # Text file used in file system demonstration (commented out).
-├── .gitignore             # Specifies intentionally untracked files that Git should ignore.
-├── .prettierrc            # Configuration file for Prettier code formatter.
-├── index.js              # Main application file containing server logic.
-├── package-lock.json     # Records the exact versions of dependencies used.
-└── package.json          # Contains project metadata and dependencies.
+├── 📁 dev-data/
+│   └── 📄 data.json           # Product data (JSON).
+├── 🧩 modules/
+│   └── ⚙️ replaceTemplate.js # HTML template replacement module.
+├── 📂 templates/
+│   ├── 🖼️ template-card.html   # Product card template.
+│   ├── 📰 template-overview.html # Overview page template.
+│   └── 🏷️ template-product.html # Product details template.
+├── 🗄️ txt/                   # (Commented-out) File system examples.
+│   ├── 📝 append.txt
+
+│   ├── 📜 final.txt
+
+│   ├── 📥 input.txt
+
+│   ├── 📤 output.txt
+
+│   ├── 📑 read-this.txt
+
+│   └── 🚀 start.txt
+
+├── 🚫 .gitignore             # Git ignore file.
+├── 💅 .prettierrc            # Prettier config.
+├── ⚙️ index.js              # Main application file.
+├── 📦 package-lock.json     # Dependency versions.
+└── 📃 package.json          # Project metadata and dependencies.
 ```
 
 ## 🚀 How to Run
